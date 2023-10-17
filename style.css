@@ -1,0 +1,23 @@
+.blue{
+    background-color: blue;
+}
+
+.blue-text{
+    color: blue;
+}
+
+.style{
+    border: 2px solid white;
+    background-color: white;
+    display: inline-block;
+}
+
+.spacing{
+    padding: 2px 2px 2px 2px;
+}
+
+header{
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}

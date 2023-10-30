@@ -59,6 +59,7 @@ footer{
     color: blue;
     line-height: 1.7em;
     word-spacing: 0.1em;
+    margin-left: -2px;
 }
 
 #border1{
@@ -75,6 +76,7 @@ footer{
 
 li{
     line-height: 2em;
+    font-weight: bold;
 }
 
 h2{

@@ -10,12 +10,18 @@
     border: 2px solid white;
     padding: 4px;
     background-color: white;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
 }
 
 .spacing{
-    padding: 2px 2px 2px 2px;
-    text-align: center;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 header{
@@ -72,6 +78,10 @@ footer{
     padding: 20px 10px;
 }
 
+.mt-1{
+    margin-bottom: 15px;
+}
+
 li{
     line-height: 2em;
     font-weight: bold;
@@ -81,4 +91,10 @@ h2{
     text-decoration: underline !important;
     padding-left: 30px;
     line-height: 1px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

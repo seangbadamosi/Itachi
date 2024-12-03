@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15px;
+    height: 5px;
 }
 
 .spacing{
@@ -62,18 +62,37 @@ footer{
     text-align: center !important;
 }
 
-/* #border{
+.cap-box{
     position: absolute;
     border: 2px solid;
     background-color: white;
-    width: 34% !important;
-    top: 24em;
-    padding: 20px 3px 15px 20px;
+    width: 30vw;
+    height: 17vh;
+    top: 39vh;
     color: blue;
-    line-height: 1.7em;
-    word-spacing: 0.1em;
+    padding: 10px 1px 1px 60px;
+    line-height: 1.2em;
+    word-spacing: 0.4em;
     margin-left: -2px;
-} */
+}
+
+@media (max-width: 768px) {
+    .cap-box{
+        height: 20vh;
+        width: 30vw;
+        word-spacing: 1px;
+        line-height: normal;
+        padding: 10px 10px 0px 10px;
+    }
+}
+
+@media (max-width: 635px) {
+    .cap-box{
+        font-size: 1rem !important;
+        height: 30vh;
+    }
+}
+
 
 /* #border1{
     border: 2px solid white;

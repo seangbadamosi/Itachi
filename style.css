@@ -35,13 +35,16 @@ header{
     height: 40vh;
 }
 
-body{
+header{
     background-image: url(/img/itachi.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 main{
-
+    margin-top: 100vh;
     background: linear-gradient(to left, rgba(128, 128, 128, 0.685), rgba(61, 61, 102, 0.788));
 }
 
@@ -59,7 +62,7 @@ footer{
     text-align: center !important;
 }
 
-#border{
+/* #border{
     position: absolute;
     border: 2px solid;
     background-color: white;
@@ -70,7 +73,7 @@ footer{
     line-height: 1.7em;
     word-spacing: 0.1em;
     margin-left: -2px;
-}
+} */
 
 /* #border1{
     border: 2px solid white;
